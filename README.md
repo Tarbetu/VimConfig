@@ -7,6 +7,7 @@ Nothing fancy here. I'm just sharing my vim config and the commands mostly copie
 I'm a NeoVim user. So the installation is Neovim specific.
 
 ```shell
+chmod +x installation.sh
 ./installation.sh
 ```
 
