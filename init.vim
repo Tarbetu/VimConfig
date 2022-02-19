@@ -2,7 +2,7 @@ set hidden
 
 " Neovim Workpath
 function! SourceThis(file)
-  execute "source ~/.config/nvim/"+a:file 
+  execute "source ~/.config/nvim/".a:file 
 endfunction
 
 " VimPlug Extensions
