@@ -3,7 +3,7 @@
 let g:ycm_language_server = [
 \   {
 \     'name': 'ruby',
-\     'cmdline': [ "solargraph", 'stdio' ],
+\     'cmdline': [ 'solargraph', 'stdio' ],
 \     'filetypes': [ 'ruby' ],
 \   },
 \ ]

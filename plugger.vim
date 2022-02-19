@@ -38,6 +38,8 @@ call plug#begin(stdpath('data').'/plugged')
         Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
         Plug 'junegunn/fzf.vim'
         Plug 'preservim/nerdtree'
+        Plug 'Xuyuanp/nerdtree-git-plugin'
+        Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
         Plug 'ryanoasis/vim-devicons'
         Plug 'vim-airline/vim-airline'
        	Plug 'vim-airline/vim-airline-themes'
