@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/emre/Genel/Rails_proceleri/sweet_dictionary/app/javascript/packs'
+let g:netrw_dirhist_7='/home/emre/Genel/Rails_proceleri/sweet_dictionary/app/javascript'
+let g:netrw_dirhist_6='/home/emre/Genel/Rails_proceleri/superiortwitter/app/views/layouts'
+let g:netrw_dirhist_5='/home/emre/Genel/Rails_proceleri/superiortwitter/app/views'
+let g:netrw_dirhist_4='/home/emre/Genel/Rails_proceleri/superiortwitter/app/views/layouts'
+let g:netrw_dirhist_3='/home/emre/Genel/Rails_proceleri/re-former/app/controllers'
+let g:netrw_dirhist_2='/home/emre/Genel/TelegramBotu/lib/telegram_botu'
+let g:netrw_dirhist_1='/home/emre/Genel/some-ruby-stuff'
+let g:netrw_dirhist_0='/home/emre/Odin/das-kagit-makas'
+let g:netrw_dirhist_9='/home/emre/.local/share/nvim/plugged'
