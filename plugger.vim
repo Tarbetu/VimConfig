@@ -11,6 +11,8 @@ call plug#begin(stdpath('data').'/plugged')
         Plug 'vim-crystal/vim-crystal'
         Plug 'vim-ruby/vim-ruby'
         Plug 'zah/nim.vim'
+        Plug 'slint-ui/vim-slint'
+        Plug 'fatih/vim-go'
         " JS için, yani
         Plug 'pangloss/vim-javascript'
         Plug 'leafgarland/typescript-vim'
@@ -42,5 +44,10 @@ call plug#begin(stdpath('data').'/plugged')
         Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
         Plug 'ryanoasis/vim-devicons'
         Plug 'vim-airline/vim-airline'
-       	Plug 'vim-airline/vim-airline-themes'
+        Plug 'vim-airline/vim-airline-themes'
+        Plug 'ntpeters/vim-better-whitespace'
+        Plug 'axvr/photon.vim'
+        Plug 'tpope/vim-fugitive'
+        Plug 'mhinz/vim-signify'
+        Plug 'mhinz/vim-startify'
 call plug#end()
