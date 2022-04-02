@@ -3,6 +3,9 @@ let g:ale_fixers = {
 \       "ruby": ["rubocop"],
 \       "rust": ["rustfmt"],
 \       "java": ["google_java_format", "uncrustify"],
-\       "xml": ["xmllint"]
+\       "xml": ["xmllint"],
+\       "html": ["prettier"],
+\       "css": ["prettier"],
+\       "javascript": ["prettier"]
 \}
 let g:ale_fix_on_save = 1
