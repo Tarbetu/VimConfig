@@ -10,7 +10,7 @@ curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --c
 
 CONFIG="~/.config/nvim/"
 rm -rf $CONFIG/*
-cp * $CONFIG
+cp -r * $CONFIG
 rm $CONFIG/installation.sh
 rm $CONFIG/README.md
 
