@@ -1,6 +1,6 @@
 let g:ale_disable_lsp = 1
 let g:ale_fixers = {
-\       "ruby": ["prettier", "rubocop"],
+\       "ruby": ["rubocop"],
 \       "eruby": ["erblint"],
 \       "rust": ["rustfmt"],
 \       "xml": ["xmllint"],
