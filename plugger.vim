@@ -50,4 +50,5 @@ call plug#begin(stdpath('data').'/plugged')
         Plug 'tpope/vim-fugitive'
         Plug 'mhinz/vim-signify'
         Plug 'mhinz/vim-startify'
+        Plug 'github/copilot.vim'
 call plug#end()
