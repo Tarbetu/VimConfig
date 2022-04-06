@@ -5,11 +5,11 @@ if [ $1 == "--zypper" ] ; then
 fi
 
 
-curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-      https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
-CONFIG="~/.config/nvim/"
+CONFIG="$HOME/.config/nvim/"
 rm -rf $CONFIG/*
+mkdir -p $CONFIG
 cp * $CONFIG
 rm $CONFIG/installation.sh
 rm $CONFIG/README.md
