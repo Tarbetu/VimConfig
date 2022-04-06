@@ -13,6 +13,10 @@ autocmd FileType eruby imap öö<tab> <esc>a<%=  %><esc>bhi
 autocmd FileType eruby imap öç<tab> <esc>a<% end %><esc>O
 autocmd FileType eruby imap öm<tab> <esc>a<%  %><esc>bhi
 
+" Clears the line
+" You don't have any characters like 'ğ', right?
+nmap ğğ ddO
+
 " Redefine Keys for Emmet
 let g:user_emmet_leader_key='ö'
 
