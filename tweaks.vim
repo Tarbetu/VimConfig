@@ -1,8 +1,10 @@
 " Whitespace Settings
 set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
 
-" Searching for Ctrl-S | Fsf
+" New Tab | Fsf
 :map <C-S> :tabnew \| Files<CR>
+" New Vertical Split | Fsf
+:nmap <C-X> :vsplit \| Files<CR>
 
 " Open NerdTree in the files
 nnoremap <C-A> :NERDTreeToggle %:p:h<CR>
