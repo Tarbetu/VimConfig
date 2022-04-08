@@ -55,6 +55,7 @@ set nofoldenable
 set foldlevel=99
 set fillchars=fold:\ "The backslash escapes a space
 set foldtext=CustomFoldText()
+nmap zz za
 
 function! CustomFoldText()
   let indentation = indent(v:foldstart)
