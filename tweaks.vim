@@ -48,6 +48,24 @@ let g:better_whitespace_guicolor="silver"
 " Set linenumbers
 :set number
 
+" Folding | Copied and modified from:
+" https://essais.co/better-folding-in-neovim/
+setlocal foldmethod=indent
+set nofoldenable
+set foldlevel=99
+set fillchars=fold:\ "The backslash escapes a space
+set foldtext=CustomFoldText()
+
+function! CustomFoldText()
+  let indentation = indent(v:foldstart)
+  let foldSize = 1 + v:foldend - v:foldstart
+  let foldSizeStr = " " . foldSize . " lines "
+  let foldLevelStr = repeat("+--", v:foldlevel)
+  let expansionString = repeat(" ", indentation)
+
+  return expansionString . foldLevelStr . foldSizeStr
+endfunction
+
 " Current line pointer
 au BufEnter * setlocal cursorline
 au BufLeave * setlocal nocursorline

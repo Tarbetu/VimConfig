@@ -5,5 +5,6 @@ set termguicolors
 colorscheme photon
 hi Normal guibg=NONE ctermbg=NONE
 hi LineNr guibg=NONE guifg=grey
+hi Folded guibg=NONE guifg=BlueViolet
 highlight CursorLine cterm=NONE ctermfg=NONE ctermbg=233 guifg=NONE guibg=#121212
 let g:airline_theme="base16_black_metal_gorgoroth"
