@@ -15,5 +15,10 @@ let g:ycm_language_server = [
 \     'name': 'slint',
 \     'cmdline': [ 'slint-lsp' ],
 \     'filetypes': [ 'slint' ],
-\   }
+\   },
+\  {
+\    'name': 'ccls',
+\    'cmdline': [ 'ccls', '--stdio' ],
+\    'filetypes:' ['c', 'cpp', 'cuda', 'objc', 'objcpp'],
+\    'project_root_files': ['.ccls-root', 'compile_commands.json'],
 \ ]
