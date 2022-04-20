@@ -18,7 +18,7 @@ let g:ycm_language_server = [
 \   },
 \  {
 \    'name': 'ccls',
-\    'cmdline': [ 'ccls', '--stdio' ],
+\    'cmdline': ['ccls'],
 \    'filetypes:' ['c', 'cpp', 'cuda', 'objc', 'objcpp'],
 \    'project_root_files': ['.ccls-root', 'compile_commands.json'],
 \ ]
