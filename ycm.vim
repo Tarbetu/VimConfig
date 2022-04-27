@@ -5,6 +5,8 @@ nmap <esc> :lclose<enter>
 
 let g:ycm_add_preview_to_completeopt = 1
 
+let g:ycm_use_clangd = 0
+
 let g:ycm_language_server = [
 \   {
 \     'name': 'ruby',
@@ -16,9 +18,10 @@ let g:ycm_language_server = [
 \     'cmdline': [ 'slint-lsp' ],
 \     'filetypes': [ 'slint' ],
 \   },
-\  {
+\   {
 \    'name': 'ccls',
-\    'cmdline': [ 'ccls' ],
+\    'cmdline': ['ccls'],
 \    'filetypes': ['c', 'cpp', 'cuda', 'objc', 'objcpp'],
 \    'project_root_files': ['.ccls-root', 'compile_commands.json'],
+\   }
 \ ]
