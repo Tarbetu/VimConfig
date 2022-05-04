@@ -15,8 +15,9 @@ autocmd FileType eruby imap öö<tab> <esc>a<%=  %><esc>bhi
 autocmd FileType eruby imap öç<tab> <esc>a<% end %><esc>O
 autocmd FileType eruby imap öm<tab> <esc>a<%  %><esc>bhi
 
-" Line breaks for Markdown
+" Better looking for markdown
 autocmd FileType markdown set wrap linebreak
+autocmd FileType markdown Goyo 80
 
 " Clears the line
 " You don't have any characters like 'ğ', right?
