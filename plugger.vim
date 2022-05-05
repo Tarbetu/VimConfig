@@ -53,4 +53,5 @@ call plug#begin(stdpath('data').'/plugged')
         Plug 'github/copilot.vim'
         Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
         Plug 'junegunn/goyo.vim'
+        Plug 'junegunn/limelight.vim'
 call plug#end()

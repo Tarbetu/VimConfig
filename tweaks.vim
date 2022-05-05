@@ -71,6 +71,10 @@ function! CustomFoldText()
   return expansionString . foldLevelStr . foldSizeStr
 endfunction
 
+" Goyo + Limelight
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
+
 " Current line pointer
 au BufEnter * setlocal cursorline
 au BufLeave * setlocal nocursorline
