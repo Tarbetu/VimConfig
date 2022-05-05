@@ -23,7 +23,9 @@ autocmd FileType markdown Goyo 80
 " You don't have any characters like 'ğ', right?
 nmap ğğ ddO
 
-" Redefine Keys for Emmet
+" Emmet settings
+let g:user_emmet_install_global = 0
+autocmd FileType html,css,eruby EmmetInstall
 let g:user_emmet_leader_key='ö'
 
 " The curse of Ruby
