@@ -16,8 +16,12 @@ autocmd FileType eruby imap öç<tab> <esc>a<% end %><esc>O
 autocmd FileType eruby imap öm<tab> <esc>a<%  %><esc>bhi
 
 " Better looking for markdown
-autocmd FileType markdown set wrap linebreak
-autocmd FileType markdown Goyo 80
+augroup MarkdownSettings
+  autocmd FileType markdown set wrap linebreak
+  autocmd FileType markdown Goyo 80
+  autocmd FileType markdown map k gk
+  autocmd FileType markdown map j gj
+augroup END
 
 " Clears the line
 " You don't have any characters like 'ğ', right?
