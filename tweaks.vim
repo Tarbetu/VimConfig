@@ -29,7 +29,7 @@ nmap ğğ ddO
 
 " Emmet settings
 let g:user_emmet_install_global = 0
-autocmd FileType html,css,eruby, jsx, scss, sass EmmetInstall
+autocmd FileType html,css,eruby,js,jsx,scss,sass EmmetInstall
 let g:user_emmet_leader_key='ö'
 
 " The curse of Ruby
