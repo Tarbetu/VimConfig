@@ -7,7 +7,7 @@ call plug#begin(stdpath('data').'/plugged')
         Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
         Plug 'evanleck/vim-svelte', {'branch': 'main'}
         Plug 'cespare/vim-toml'
-        Plug 'sonph/onehalf', { 'rtp': 'vim' }
+        Plug 'andreasvc/vim-256noir'
         Plug 'vim-crystal/vim-crystal'
         Plug 'vim-ruby/vim-ruby'
         Plug 'zah/nim.vim'
