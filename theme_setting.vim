@@ -1,7 +1,7 @@
 set termguicolors
-colorscheme ayu
-let ayucolor="dark"
-let g:airline_theme='ayu_dark'
+set t_Co=256
+colorscheme onehalfdark
+let g:airline_theme="onehalfdark"
 " colorscheme photon
 " let g:airline_theme="base16_black_metal_gorgoroth"
 hi Normal guibg=NONE ctermbg=NONE
