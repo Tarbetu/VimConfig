@@ -33,7 +33,10 @@ call plug#begin(stdpath('data').'/plugged')
         Plug 'tpope/vim-rails'
         Plug 'rstacruz/vim-closer'
         Plug 'tpope/vim-endwise'
+        " LSP and linter
         Plug 'dense-analysis/ale'
+        Plug 'neoclide/coc.nvim', {'branch': 'release'}
+                " LSP and Lister - END
         Plug 'alvan/vim-closetag'
         Plug 'junegunn/rainbow_parentheses.vim'
         Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
