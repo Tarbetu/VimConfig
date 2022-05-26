@@ -33,8 +33,8 @@ call plug#begin(stdpath('data').'/plugged')
         Plug 'tpope/vim-rails'
         Plug 'rstacruz/vim-closer'
         Plug 'tpope/vim-endwise'
-        Plug 'ycm-core/YouCompleteMe'
         Plug 'dense-analysis/ale'
+        Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
         Plug 'alvan/vim-closetag'
         Plug 'junegunn/rainbow_parentheses.vim'
         Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
