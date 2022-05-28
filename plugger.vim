@@ -33,6 +33,8 @@ call plug#begin(stdpath('data').'/plugged')
         Plug 'tpope/vim-rails'
         Plug 'rstacruz/vim-closer'
         Plug 'tpope/vim-endwise'
+        Plug 'yuezk/vim-js'
+        Plug 'maxmellon/vim-jsx-pretty'
         " LSP and linter
         Plug 'dense-analysis/ale'
         Plug 'neoclide/coc.nvim', {'branch': 'release'}

@@ -8,7 +8,7 @@ let g:ale_fixers = {
 \       "xml": ["xmllint"],
 \       "html": ["prettier"],
 \       "css": ["prettier"],
-\       "javascript": ["prettier"],
+\       "javascript": ["prettier", "eslint"],
 \       "cpp": ["clang-format", "clangtidy"],
 \       "markdown": ["trim_whitespace"],
 \       "elixir": ['mix_format']
@@ -16,7 +16,8 @@ let g:ale_fixers = {
 
 let g:ale_linters = {
 \       "elixir": ["elixir-ls"],
-\       "ruby": ["rubocop", "ruby", "solargraph"]
+\       "ruby": ["rubocop", "ruby", "solargraph"],
+\       "javascript": ["eslint"]
 \}
 
 let g:ale_fix_on_save = 1
