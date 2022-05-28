@@ -23,6 +23,9 @@ call SourceThis("theme_setting.vim")
 " My Tweaks and Shortcuts | NERDTree related configs are here
 call SourceThis("tweaks.vim")
 
+" My Custom Commands
+call SourceThis("commands.vim")
+
 " Some fixes for extensions
 " they will be deleted if the extensions fixes the issues
 call SourceThis("hotfixes.vim")
