@@ -11,7 +11,8 @@ let g:ale_fixers = {
 \       "javascript": ["prettier", "eslint"],
 \       "cpp": ["clang-format", "clangtidy"],
 \       "markdown": ["trim_whitespace"],
-\       "elixir": ['mix_format']
+\       "elixir": ['mix_format'],
+\       "json": ["prettier"]
 \}
 
 let g:ale_linters = {

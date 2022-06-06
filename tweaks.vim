@@ -23,6 +23,9 @@ augroup MarkdownSettings
   autocmd FileType markdown map j gj
 augroup END
 
+" CSS server for Scss, sass
+autocmd FileType scss,sass setl iskeyword+=@-@
+
 " Clears the line
 " You don't have any characters like 'ğ', right?
 nmap ğğ ddO
